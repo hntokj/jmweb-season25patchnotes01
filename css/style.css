@@ -1,0 +1,580 @@
+@charset "UTF-8"; /*PC用*/
+
+body{/*全体設定*/
+    background-image: url(../images/web-bg.jpg);
+    background-size: contain;
+    font-family:"游ゴシック","ヒラギノ角ゴ ProN";
+    width:100%;
+}
+.top {/*topページ*/
+    width: 100%;
+    text-align: center; 
+    margin-top: 3%;
+    background-image: url(../images/web-bg.jpg);
+    background-size: contain;
+}
+.head-article{
+    background-image: url(../images/web-bg.jpg);
+    background-size: contain;
+}
+
+header .top img{ /*top画像*/
+    width: 80%;
+    border-bottom: 20px double black;
+}
+.top-info{/*ページタイトルから日付まで⬇️*/
+    padding-bottom: 20px;
+}
+.top-info .title a{
+    display: block;
+    width: 100%;
+    background-image:url(../images/orinnpasu-topへ.jpg);
+    background-size: contain;
+}
+.top-info .title a h2{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 35px;
+    font-weight: 600;
+}
+time{
+    background-color: #91c777;
+    border-radius: 0px 22px 22px 22px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 13px 25px 12px 28px;
+    display: inline-block;
+    margin:10px 0px 20px 0px;
+}
+main{/*メイン背景*/
+    background-image: url(../images/web-bg.jpg);
+    background-size: contain;
+}
+section{/*バックだいだい色のとこ*/
+    width: 60%;
+    margin:0px auto 0px auto ;
+    background-color:rgb(254, 239, 225);
+    padding-top: 20px;
+}
+/*SNSボタン⬇️*/
+.home {
+    background-color: #6ab547;
+}
+.youtube{
+    background-color: red;
+}
+.x{
+    background-color: black;
+}
+article ul li a{ /*ページタイトル*/
+    background-image:url(../images/orinnpasu-topへ.jpg) ;
+    background-size: contain;
+    display:flex;
+    padding:8px;
+    color:#ffffff;
+    font-size: 25px;
+    font-weight: 600;
+}
+article ul{
+    margin: 5px auto;
+    display:flex;
+    justify-content: center; 
+}
+article ul li{/*ボタンの間*/
+    margin:0 20px;
+}
+article ul li a:hover{
+    color:rgb(0, 157, 255);
+text-decoration: underline double;
+}
+article nav{
+    width:80%;
+    background-color: black;
+    background-size: contain;
+    background-size: 100%;
+    margin: 0px auto 10px auto; 
+}
+article{
+    background-image: url(../images/web-bg.jpg) ;
+    background-size: contain;
+}/*SNSボタン⬆️*/
+
+/*---- 目次---- */
+/*.categoryNav{
+    background-color: bisque;
+    width: 50%;
+    margin: 0px auto;
+    border-radius: 20px;
+}
+
+.categoryNav h2{
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+}
+.categoryNav ul{
+    font-size: 35px;
+    width: 50%;
+    margin: 20px auto 20px auto;
+    padding: 20px 0px;
+}
+.categoryNav li{
+    padding: 10px;
+}*/
+
+
+/*----sectoin内　文----*/
+
+.class-img{/*クラス　画像*/
+    width: 100%;
+    text-align: center; 
+}
+main section .class-img img{/*レジェンド　画像*/
+    width:90%;
+    margin: 10px auto;
+}
+.abilityUlt-img{/*枠内　画像*/
+    width:100%;
+    text-align: center;
+}
+.abilityUlt-img img{/*枠内　画像*/
+    width:98%;
+}
+main section a h3{/*レジェンド調整、武器調整*/
+    border-bottom: 5px solid #6ab547;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight:600;
+    background-image: url(../images/h2_icon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    padding: 20px 0px;
+}
+main section h4{/*ヒューズ弱体化*/
+    font-size: 25px; 
+    font-weight: 700;
+    border-bottom: 5px dashed #a7a7a7;
+    padding: 10px 0px;
+}
+
+main section ul {  /*調整内容　文　囲い*/
+    width:90%;
+    border: 5px solid rgb(174, 230, 191);
+    padding: 30px 0px 30px 0px ;
+    margin: 10px auto;
+}
+
+section ul li{ /*囲ってある文*/
+    font-size: 25px;
+    padding: 5px auto;
+    text-align: left;
+    margin:20px 0px;
+}
+.hajimeni h5{
+    font-size: 25px;
+    font-weight: 800;
+    color:black;
+    margin-left: 20px;
+}
+.hajimeni h6{
+    font-size: 50px;
+    color:rgb(255, 111, 0);
+    text-align: center;
+    font-weight: 800;
+    text-decoration: underline solid;
+}
+.hajimeni h1{
+    font-size: 25px;
+    color:black;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.syousai1 h5{
+    font-size: 30px;
+    color: black;
+    border-bottom: 8px double red;
+    width:50%;
+    text-align: center;
+    margin:10px auto;
+}
+
+.syousai2 h5{
+    font-size: 30px;
+    color: black;
+    border-bottom: 8px double red;
+    width:80%;
+    text-align: center;
+    margin:30px auto 10px auto;
+}
+
+.url{
+    font-size: 25px;
+    color:blue;
+    text-decoration: underline solid;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.url-before h5{
+    font-size: 25px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+/*ーーーーTOPへ　ボタン⬇️ーーーー*/
+bottom{ 
+    display: flex;
+    margin: 20px auto;
+    border:6px double black;
+    width:30%;
+    background-image:url(../images/orinnpasu-topへ.jpg);
+    background-size: contain;
+}
+bottom a {
+    margin: 0px auto;
+    font-size: 30px;
+    font-weight: 900;
+}
+bottom a:hover{
+    color: rgb(0, 157, 255);
+}
+/*ーーーーTOPへボタン⬆️ーーーー*/
+
+
+/*ーーーー色指定⬇️ーーーー*/
+red{
+    color:rgb(255, 72, 0);
+}
+red-border{
+    border:3px solid rgb(255, 72, 0);
+}
+kyoutyou{
+    color: rgb(255, 111, 0);
+    font-weight: 800;
+}
+Lv2{
+    color:blue;
+    font-weight: 800;
+}
+Lv3{
+    color:purple;
+    font-weight: 800;
+}
+/*ーーーー色指定⬆️ーーーー*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:640px){
+    body{
+        background-image: url(../images/web-bg.jpg);
+        background-size: contain;
+        font-family:"游ゴシック","ヒラギノ角ゴ ProN";
+    }
+    .top {
+        width: 100%;
+        text-align: center; 
+        margin-top: 3%;
+        background-image: url(../images/web-bg.jpg);
+        background-size: contain;
+    }
+    .head-article{
+        background-image: url(../images/web-bg.jpg);
+        background-size: contain;
+    }
+    body{
+        width:100%;
+    }
+    header .top img{ /*top画像*/
+        width: 90%;
+        border-bottom: 20px double black;
+    }
+    .top-info{
+        padding-bottom: 20px;
+    }
+
+
+    
+    
+
+    section{
+        width: 80%;
+        margin:0px auto 0px auto ;
+        background-color:rgb(254, 239, 225);
+        padding-top: 20px;
+    }
+    main{
+        background-image: url(../images/web-bg.jpg);
+        background-size: contain;
+    }
+    
+
+    /*ボタン⬇️*/
+    
+    .home {
+        font-size: 15px;
+        font-weight: 600;
+        background-color: #6ab547;
+        padding:3px;
+    }
+    .youtube{
+        font-size: 15px;
+        font-weight: 600;
+        background-color: red;
+        padding:3px;
+    }
+    .x{
+        font-size: 15px;
+        font-weight: 600;
+        background-color: black;
+        padding:3px;
+    }
+    
+
+    article ul li a{
+        background-image:url(../images/orinnpasu-topへ.jpg) ;
+        background-size: contain;
+        display:flex;
+        padding:5px;
+        color:#ffffff;
+    }
+    article ul{
+        margin: 5px auto;
+        display:flex;
+        justify-content: center; 
+    }
+    article ul li{/*ボタンの間*/
+        margin:0 10px;
+    }
+    article ul li a:hover{
+        color:rgb(0, 157, 255);
+    text-decoration: underline double;
+    }
+    article nav{
+        width:90%;
+        background-color: black;
+        background-size: contain;
+        background-size: 100%;
+        margin: 0px auto 10px auto; 
+        /* padding:10px 0px; */
+    }
+    article{
+        background-image: url(../images/web-bg.jpg) ;
+        background-size: contain;
+    }
+    
+    
+    
+    .top-info .title a{
+        display: block;
+        width: 100%;
+        background-image:url(../images/orinnpasu-topへ.jpg);
+        background-size: contain;
+    }
+    .top-info .title a h2{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    time{
+        background-color: #91c777;
+        border-radius: 0px 22px 22px 22px;
+        font-size: 12px;
+        font-weight: bold;
+        color: #ffffff;
+        padding: 10px 15px 10px 15px;
+        display: inline-block;
+        margin:10px 0px 20px 0px;
+    }
+    
+
+    .class-img{/*クラス　画像*/
+        width: 100%;
+        text-align: center; 
+    }
+    main section .class-img img{/*レジェンド　画像*/
+        width:90%;
+        margin: 10px auto;
+    }
+    main section a h3{/*レジェンド調整、武器調整*/
+        border-bottom: 4px solid #6ab547;
+        margin-bottom: 20px;
+        font-size: 20px;
+        font-weight:600;
+        background-image: url(../images/h2_icon.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: left bottom;
+        padding: 20px 0px 10px 0px;
+    }
+    main section h4{/*ヒューズ弱体化*/
+        font-size: 18px; 
+        font-weight: 700;
+        border-bottom: 5px dashed #a7a7a7;
+        padding: 10px 0px;
+    }
+    .legend-img{/*レジェンド　画像*/
+        width: 100%;
+        text-align: center; 
+    }
+    main section .legend-img img{/*レジェンド　画像*/
+        width:90%;
+        margin: 10px auto;
+    }
+    main section ul {  /*調整内容　文　囲い*/
+        width: 90%;
+        border: 5px solid rgb(174, 230, 191);
+        padding: 10px 0px 10px 0px ;
+        margin: 10px auto;
+    }
+    section ul  a h5{
+        margin-top: 30px;
+    }
+    section ul h5{/*パッシブ：*/
+        font-size: 20px;
+        font-weight: 600;
+        border-bottom: 2px dotted gray;
+    }
+    section ul li{ /*囲ってある文*/
+        font-size: 12px;
+        font-weight: 500;
+        padding: 5px auto;
+        text-align: left;
+        margin:20px 0px;
+    }
+    .weapon-img{/*武器　画像*/
+        width: 100%;
+        text-align: center; 
+    }
+    main section .weapon-img img{/*武器　画像*/
+        width:70%;
+        margin: 10px auto;
+    }
+    .sonotaURL h4{/*↓その他武器の調整内容はこちら↓*/
+        font-size: 17px;
+        font-weight:900;
+    }
+    .mojiOver h4{/*ミシックヘルメット,ランドマーク,ノックダウン*/
+        font-size: 21px;
+        font-weight:900;
+    }
+    
+
+    
+    
+    
+    bottom{ 
+        display: flex;
+        margin: 40px auto;
+        border:6px double black;
+        width:40%;
+        background-image:url(../images/orinnpasu-topへ.jpg);
+        background-size: contain;
+    }
+    bottom a {
+        margin: 0px auto;
+        font-size: 30px;
+        font-weight: 900;
+    }
+    bottom a:hover{
+        color: rgb(0, 157, 255);
+    }
+    
+    red{
+        color:rgb(255, 72, 0);
+    }
+    red-border{
+        border:3px solid rgb(255, 72, 0);
+    }
+    
+    blue{
+        color:rgb(0, 157, 255);
+        border-bottom:2px solid rgb(0, 157, 255);
+    }
+
+    kyoutyou{
+        color: rgb(255, 111, 0);
+        font-weight: 800;
+    }
+
+    .hajimeni h5{ /*スパロー紹介文　前*/
+        font-size: 10px;
+        color:black;
+        font-weight: 600;
+        margin-left: 5px;
+    }
+    .hajimeni h6{ /*スパロー紹介文　スパロー強調*/
+        font-size: 30px;
+        color:rgb(255, 111, 0);
+        text-align: center;
+        font-weight: 800;
+        text-decoration: underline solid;
+    }
+    .hajimeni h1{ /*スパロー紹介文　後*/
+        font-size: 13px;
+        font-weight: 600;
+        color:black;
+        text-align: right;
+        margin-right: 5px;
+    }
+    
+    .syousai1 h5{ /*パッシブ*/
+        font-size: 20px;
+        font-weight: 600;
+        color: black;
+        border-bottom: 5px double red;
+        width:50%;
+        text-align: center;
+        margin:10px auto;
+    }
+    
+    .syousai2 h5{ /*戦術*/
+        font-size: 20px;
+        font-weight: 600;
+        color: black;
+        border-bottom: 5px double red;
+        width:80%;
+        text-align: center;
+        margin:30px auto 10px auto;
+    }
+
+    .url{
+        font-size: 13px;
+        color:blue;
+        text-decoration: underline solid;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .url-before h5{
+        font-size: 20px;
+        margin-top: 30px;
+        text-align: center;
+    }
+}
+
+
+
+
